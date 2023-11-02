@@ -1,0 +1,36 @@
+@media only screen and (max-width: 780px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+    .nav-element {
+        flex-direction: column;
+        position: relative;
+        background: #181827;
+        right: 2.25rem;
+        width: 100vw;
+        padding: 30px 0;
+        margin-top: 20px;
+        transition: all 1s ease-in-out;
+    }
+
+    .menu-btn {
+        display: flex;
+        position: absolute;
+        top: 1.25rem;
+        right: 1.25rem;
+        scale: 0.8;
+    }
+
+    .show {
+        display: flex;
+    }
+    .hide {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .logo {
+        width: 30%;
+    }
+}

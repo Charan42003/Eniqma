@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #27283A;
+}
+
+/* Container  */
+.container-custom {
+    max-width: 1440px;
+    overflow-x: hidden;
+}
+
+/* Nav bar */
+.nav-element a:hover {
+    color: #A36CE1;
+    transition: all 0.2s ease-in-out
+}
