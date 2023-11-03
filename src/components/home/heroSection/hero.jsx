@@ -1,5 +1,5 @@
 import React from 'react'
-import earth from '../../../assets/globe1.png'
+import earth from '../../../assets/globe2.png'
 
 function Hero() {
   return (

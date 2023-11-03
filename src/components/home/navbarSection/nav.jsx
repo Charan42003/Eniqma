@@ -12,12 +12,12 @@ function Nav() {
   return (
     <>
       <nav className="flex justify-between p-5 px-10 nav-bar">
-        <span className="w-[100px] scale-[1.4] logo">
+        <span className="w-[130px] scale-[1.4] logo">
             <a href="#">
                 <img src={ logo } className='' />
             </a>
         </span>
-        <div className={`flex justify-center items-center gap-5 nav-element ${close ? 'hide' : 'show'}`}>
+        <div className={`flex justify-center items-center gap-10 nav-element ${close ? 'hide' : 'show'}`}>
             <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Home</a>
             <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>About Us</a>
             <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Prizes</a>
