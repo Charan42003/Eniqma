@@ -77,6 +77,20 @@ body {
     filter: contrast(2.5);
 }
 
+.hero-btn {
+  border: none;   
+}
+
+.community-btn {
+    /* border-color:#A36CE1; */
+    border: 3px solid #A36CE1;
+    border-bottom-color: #73C9EC;
+    border-left-color: #73C9EC;
+    background-clip: text;
+    /* color: transparent !important; */
+    color: white;
+}
+
 @keyframes spinit {
     0% {
         transform: translateX(-50%) rotate(0deg);

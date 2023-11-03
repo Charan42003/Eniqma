@@ -17,13 +17,13 @@ function Hero() {
           <p className='text-grey text-[20px] w-[60%] text-center mt-4'>
           Where Geeks And Prodigies create Magic
           </p>
-          <div className="mt-5">
-            <button className="font-bold text-[20px] tracking-widest !border-transparent register-btn">
+          <div className="mt-5 flex gap-5">
+            <button className=" text-[15px] tracking-widest register-btn hero-btn">
               Register Now
             </button>
-            {/* <button className="font-bold text-[20px] tracking-widest !border-transparent register-btn">
+            <button className=" text-[15px] tracking-widest register-btn hero-btn community-btn">
               Join Community
-            </button> */}
+            </button>
           </div>
         </div>
         <img src={ earth } alt="" className='hero-earth' />
