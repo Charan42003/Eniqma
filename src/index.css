@@ -14,7 +14,7 @@ body {
 
 /* Container  */
 .container-custom {
-    max-width: 1440px;
+    max-width: 1520px;
     overflow-x: hidden;
 }
 
@@ -67,20 +67,21 @@ body {
 
 .hero-earth {
     position: absolute;
-    bottom: -13rem;
+    top: 40%;
     left: 50%;
     /* transform: translateX(-60%); */
     mix-blend-mode: color-dodge;
     transform-origin: center;
     /* animation: spin 10s linear infinite; */
-    animation: alternate spinit 20s ease-in-out infinite;
+    animation: spinit 50s ease-in-out infinite;
+    filter: contrast(2.5);
 }
 
 @keyframes spinit {
     0% {
-        transform: translateX(-50%) rotate(15deg);
+        transform: translateX(-50%) rotate(0deg);
     }
     100% {
-        transform: translateX(-50%) rotate(-15deg);
+        transform: translateX(-50%) rotate(360deg);
     }
 }

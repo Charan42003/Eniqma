@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../../../assets/logo.png'
+import logo from '../../../assets/logo1.png'
 function Nav() {
     const [close, setClose] = useState(true);
     const [isOpen, setIsOpen] = useState(false);

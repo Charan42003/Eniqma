@@ -30,6 +30,9 @@
     .hide {
         display: none;
     }
+    .hero-earth {
+        top: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 540px) {
