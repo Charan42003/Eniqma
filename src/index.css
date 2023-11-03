@@ -8,7 +8,8 @@
 }
 
 body {
-    background: #27283A;
+    background: #13131f;
+    /* background: #27283A; */
 }
 
 /* Container  */
@@ -21,4 +22,65 @@ body {
 .nav-element a:hover {
     color: #A36CE1;
     transition: all 0.2s ease-in-out
+}
+
+.register-btn {
+    padding: 10px 20px;
+    border: 2px solid #27283A;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #A36CE1 0%, #73C9EC 100%);;
+    box-shadow: 0px 5px 35px -10px rgba(0, 0, 0, 0.2);
+}
+.register-btn:hover {
+    border-color:#A36CE1;
+    border-bottom-color: #73C9EC;
+    border-left-color: #73C9EC;
+    background-clip: text;
+    color: transparent !important;
+    font-weight: bold;
+}
+
+
+/* Hero section  */
+.hero-section {
+    background-image: url('./assets/background-image.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-shadow {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #27283ABD 0%, #27283A 100%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    position: absolute;
+    z-index: 0;
+}
+
+.hero-content h1 span{
+    color: transparent !important;
+    background: linear-gradient(270deg, #A36CE1 0%, #73C9EC 100%);
+    background-clip: text;
+    box-shadow: 0px 5px 35px -10px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+}
+
+.hero-earth {
+    position: absolute;
+    bottom: -13rem;
+    left: 50%;
+    /* transform: translateX(-60%); */
+    mix-blend-mode: color-dodge;
+    transform-origin: center;
+    /* animation: spin 10s linear infinite; */
+    animation: alternate spinit 20s ease-in-out infinite;
+}
+
+@keyframes spinit {
+    0% {
+        transform: translateX(-50%) rotate(15deg);
+    }
+    100% {
+        transform: translateX(-50%) rotate(-15deg);
+    }
 }

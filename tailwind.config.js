@@ -10,7 +10,8 @@ export default {
         transparent: 'transparent',
         white: '#fff',
         background: "#27283A",
-        primary: '#A36CE1'
+        primary: '#A36CE1',
+        grey: '#A4A5B1'
       }
     },
   },

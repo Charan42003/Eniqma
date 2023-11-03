@@ -12,18 +12,18 @@ function Nav() {
   return (
     <>
       <nav className="flex justify-between p-5 px-10 nav-bar">
-        <span className="w-[15%] logo">
+        <span className="w-[100px] scale-[1.4] logo">
             <a href="#">
                 <img src={ logo } className='' />
             </a>
         </span>
         <div className={`flex justify-center items-center gap-5 nav-element ${close ? 'hide' : 'show'}`}>
-            <a href="#" className="text-white font-bold tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Home</a>
-            <a href="#" className="text-white font-bold tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>About Us</a>
-            <a href="#" className="text-white font-bold tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Prizes</a>
-            <a href="#" className="text-white font-bold tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Sponsors</a>
-            <a href="#" className="text-white font-bold tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>FAQ</a>
-            <a href="#" className="text-white font-bold tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Register Now</a>
+            <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Home</a>
+            <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>About Us</a>
+            <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Prizes</a>
+            <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Sponsors</a>
+            <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>FAQ</a>
+            <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary register-btn" onClick={ menuClicked }>Register Now</a>
         </div>
         <button className="h-12 w-12 rounded justify-center items-center hidden menu-btn group menu-btn" 
             onClick={() =>
