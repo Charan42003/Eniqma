@@ -1,6 +1,9 @@
 import React from 'react'
 import Nav from './navbarSection/nav'
 import Hero from './heroSection/hero'
+import About from './aboutSection/About'
+import Timeline from './timelineSection/Timeline'
+import Tracks from './tracksSection/Tracks'
 
 function Home() {
   return (
@@ -11,6 +14,15 @@ function Home() {
 
         {/* Hero Section  */}
         <Hero />
+
+      {/* About Section */}
+      <About />
+
+      {/* Time Line */}
+      <Timeline />
+
+      {/* Tracks Section */}
+      <Tracks />
     </div>
     </>
   )
