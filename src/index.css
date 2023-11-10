@@ -126,3 +126,97 @@ body {
     background-clip: text;
     box-shadow: 0px 5px 35px -10px rgba(0, 0, 0, 0.2);
 }
+
+/* Tracks */
+
+.tracks-section-head h2, .sponsors-wrapper h2 {
+    color: transparent !important;
+    background: linear-gradient(270deg, #A36CE1 0%, #73C9EC 100%);
+    background-clip: text;
+    box-shadow: 0px 5px 35px -10px rgba(0, 0, 0, 0.2);
+}
+
+.tracks-section-card {
+    border-bottom: 2px solid #000;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 65%;
+    transition: transform .2s;
+}
+
+.tracks-section-card h3 {
+    font-size: 35px;
+    font-size: 700;
+    text-align: left;
+}
+
+.tracks-img {
+    display: none;
+    
+}
+
+.tracks-img img {
+    width: 100%;
+    height: 150px;
+    max-height: 40rem;
+    object-fit: cover;
+}
+
+.tracks-section-card:hover .tracks-img {
+    display: flex !important;
+    transform: scale(1.1);
+    transform-style: preserve-3d;
+}
+
+
+.tracks-section-card:hover {
+    width: 70%;
+    margin-top: 20px;
+    transform: scale(1.2);
+}
+
+/* Sponsors */
+
+.sponsors-wrapper {
+    height: 100vh;
+    background-color: #A36CE1;
+    background-image: url(https://freevetis.com/monkeymo/wp-content/uploads/sites/16/2022/02/341-32-retro-futuristic-grid-grunge-Converted.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    height: calc((100% - 30px) / 2) !important;
+    
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.sponsors-overlay, .sponsors-wrapper {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #27283AA1 0%, #27283A 100%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
