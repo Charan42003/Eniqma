@@ -1,8 +1,8 @@
 import React from 'react'
-import genAI from '../../../assets/GenAI.png'
-import blockchain from '../../../assets/blockchain-web3.jpg'
-import cyberSecurity from '../../../assets/cyber-security.jpg'
-import openInnovation from '../../../assets/open-innovation.jpg'
+import genAI from '../../../assets/globe.png'
+import blockchain from '../../../assets/globe.png'
+import cyberSecurity from '../../../assets/globe.png'
+import openInnovation from '../../../assets/globe.png'
 
 
 function Tracks() {

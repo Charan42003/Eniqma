@@ -4,6 +4,7 @@ import Hero from './heroSection/hero'
 import About from './aboutSection/About'
 import Timeline from './timelineSection/Timeline'
 import Tracks from './tracksSection/Tracks'
+import Sponsors from './sponsorsSection/Sponsors'
 
 function Home() {
   return (
@@ -23,6 +24,8 @@ function Home() {
 
       {/* Tracks Section */}
       <Tracks />
+
+      <Sponsors />
     </div>
     </>
   )
