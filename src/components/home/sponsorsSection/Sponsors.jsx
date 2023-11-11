@@ -8,7 +8,7 @@ import { Grid, Autoplay } from 'swiper/modules';
 function Sponsors() {
   return (
     <>
-    <div className='container mx-auto sponsors-wrapper'>
+    <div className='container mx-auto sponsors-wrapper overflow-hidden'>
         <div className="sponsors-overlay"></div>
         <div className="sponsors-head">
             <h2 className='text-[18px] font-bold text-center'>Sponsors</h2>
