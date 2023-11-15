@@ -19,21 +19,20 @@ const data = {
   title: "",
   rows: [
     {
-        title: "Lorem ipsum dolor sit amet,",
-        content: <p className="pl-3 text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean  velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.</p>,
+        title: "Is it a remote or an on-site Hackathon?",
+        content: <p className="pl-3 text-primary">This year, we are only hosting an on-campus event, meaning it will be conducted in person rather than online.</p>,
     },
     {
-        title: "Nunc maximus, magna at ultricies elementum",
-        content: <p className="pl-3 text-primary"> Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor. </p>,
+        title: "What is the maximum and minimum number of particip...",
+        content: <p className="pl-3 text-primary"> A group can have a minimum of 3 participants and a maximum of 5 participants. It is required to have at least one female participant in each group.</p>,
     },
     {
-        title: "Curabitur laoreet, mauris vel blandit fringilla",
-        content: <p className="pl-3 text-primary">Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-         sed massa euismod dignissim. </p>,
+        title: "What do I pay to register for the event?",
+        content: <p className="pl-3 text-primary">0, Nill, Nought, Cero, Nada. The East Point - Eniqma has no registration fee for all participants.</p>,
     },
     {
-      title: "Nunc maximus, magna at ultricies elementum",
-      content: <p className="pl-3 text-primary"> Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor. </p>,
+      title: "Will there be networking opportunities with industry professionals or sponsors?",
+      content: <p className="pl-3 text-primary"> East Point Enigma aims to provide networking opportunities. Details about industry interactions or sponsor engagements will be shared closer to the event. </p>,
     },
   ],
 };

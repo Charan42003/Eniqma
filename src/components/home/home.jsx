@@ -6,6 +6,7 @@ import Timeline from './timelineSection/Timeline'
 import Tracks from './tracksSection/Tracks'
 import Sponsors from './sponsorsSection/Sponsors'
 import FaqSection from './faqSection/FaqSection'
+import Footer from './footer/footer'
 
 function Home() {
   return (
@@ -31,6 +32,9 @@ function Home() {
       
       {/* FAQ's Section  */}
       <FaqSection />
+      
+      {/* Footer Section  */}
+      <Footer />
 
     </div>
     </>

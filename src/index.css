@@ -95,6 +95,7 @@ background: #12131b;
     /* animation: spin 10s linear infinite; */
     animation: spinit 50s ease-in-out infinite;
     filter: contrast(2.5);
+    /* transform: translateX(-50%) rotate(50deg); */
 }
 
 .hero-btn {

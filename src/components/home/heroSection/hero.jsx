@@ -20,10 +20,10 @@ function Hero() {
           Where Geeks And Prodigies create Magic
           </p>
           <div className="mt-5 flex gap-5">
-            <button className=" text-[15px] tracking-widest register-btn hero-btn">
+            <button className=" text-[15px] font-bold !text-black tracking-widest register-btn hero-btn">
               Register Now
             </button>
-            <button className=" text-[15px] tracking-widest hero-btn community-btn">
+            <button className=" !text-white text-[15px] tracking-widest hero-btn community-btn">
                 Join Community
             </button>
           </div>

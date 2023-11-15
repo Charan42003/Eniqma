@@ -12,8 +12,8 @@ function Tracks() {
     // let yAxis = (window.innerHeight/2 - e.pageY) / 20;
     let yAxis = 25
     let yAxistran = (window.innerHeight/2 - e.pageY) / 70;
-    document.querySelector(`.${card}`).style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg) `
-    // document.querySelector(`.${card}`).style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg) translateX(${xAxis}px) translateY(${yAxistran}px)`
+    // document.querySelector(`.${card}`).style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg) `
+    document.querySelector(`.${card}`).style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg) translateX(${xAxis}px) translateY(${yAxistran}px)`
     // document.querySelector(`.${card}`).style.transform = `translateX(${xAxis}px) translateY(${yAxis}px)`
     // console.log(`XAxis: ${xAxis} || YAxis: ${yAxis} container : ${container}`)
   }
