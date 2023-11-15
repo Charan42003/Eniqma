@@ -9,7 +9,27 @@
 
 body {
     background: #13131f;
+    filter: contrast(1.5);
     /* background: #27283A; */
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+background: transparent;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+background: #2a2a35;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+background: #12131b;
 }
 
 /* Container  */
@@ -18,7 +38,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Nav bar */
+/*================ Nav bar ================*/
 .nav-element a:hover {
     color: #A36CE1;
     transition: all 0.2s ease-in-out
@@ -28,7 +48,7 @@ body {
     padding: 10px 20px;
     border: 2px solid #27283A;
     border-radius: 10px;
-    background: linear-gradient(270deg, #A36CE1 0%, #73C9EC 100%);;
+    background: linear-gradient(270deg, #A36CE1 0%, #73C9EC 100%);
     box-shadow: 0px 5px 35px -10px rgba(0, 0, 0, 0.2);
 }
 .register-btn:hover {
@@ -41,7 +61,7 @@ body {
 }
 
 
-/* Hero section  */
+/*================ Hero section  ================*/
 .hero-section {
     background-image: url('./assets/background-image.jpg');
     background-position: top center;
@@ -81,14 +101,30 @@ body {
   border: none;   
 }
 
-.community-btn {
-    /* border-color:#A36CE1; */
-    border: 3px solid #A36CE1;
+.hero-section .register-btn:hover {
+    border: 2px solid #A36CE1;
     border-bottom-color: #73C9EC;
     border-left-color: #73C9EC;
+}
+
+.community-btn {
+    /* border-color:#A36CE1; */
+    border: 2px solid #A36CE1;
+    border-bottom-color: #73C9EC;
+    border-left-color: #73C9EC;
+    background: linear-gradient(270deg, #A36CE1 0%, #73C9EC 100%);
     background-clip: text;
-    /* color: transparent !important; */
-    color: white;
+    color: transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 35px -10px rgba(0, 0, 0, 0.2);
+
+}
+.community-btn:hover{
+    border-color: rgba(0, 0, 0, 0);;
+    background: linear-gradient(270deg, #A36CE1 0%, #73C9EC 100%);;
+    color: white !important;
+    
 }
 
 @keyframes spinit {
@@ -100,7 +136,7 @@ body {
     }
 }
 
-/* About Section */
+/*================ About Section ================*/
 
 .aboutSection-image {
     background-color: transparent;
@@ -118,7 +154,7 @@ body {
    
 }
 
-/* Time line Section */
+/*================ Time line Section ================*/
 
 .timeline-section h2 {
     color: transparent !important;
@@ -127,7 +163,7 @@ body {
     box-shadow: 0px 5px 35px -10px rgba(0, 0, 0, 0.2);
 }
 
-/* Tracks */
+/*================ Tracks ================*/
 
 .tracks-section-head h2, .sponsors-wrapper h2 {
     color: transparent !important;
@@ -137,6 +173,7 @@ body {
 }
 
 .tracks-section-card {
+    /* border: 1px solid red; */
     border-bottom: 2px solid #000;
     width: 100%;
     padding: 30px;
@@ -156,6 +193,9 @@ body {
 
 .tracks-img {
     display: none;
+    background:#fff;
+    padding: 20px;
+    border-radius: 20px;
     
 }
 
@@ -179,44 +219,66 @@ body {
     transform: scale(1.2);
 }
 
-/* Sponsors */
+/*================ Sponsors ================*/
 
 .sponsors-wrapper {
-    height: 100vh;
-    background-color: #A36CE1;
+    background-color: black;
     background-image: url(https://freevetis.com/monkeymo/wp-content/uploads/sites/16/2022/02/341-32-retro-futuristic-grid-grunge-Converted.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0px -5px 35px 0px rgba(0, 0, 0, 0.2) inset;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 100px; */
 }
 
-.swiper {
+.sponsor_mask {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #27283AA1 0%, #27283a 100%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    position: absolute;
+    top: 0;
+
+}
+/* .swiper {
     width: 100%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
+} */
 
-  .swiper img {
-    width: 200px;
-    height: 200px;
-  }
-  
-  .swiper-slide {
-    text-align: center;
+.swiper img {
+    width: 150px;
+    height: 150px;
+}
+
+.swiper-slide {
+    /* text-align: center;
     font-size: 18px;
-    /* background: #fff; */
-    height: calc((100% - 30px) / 2) !important;
-    
-    /* Center slide text vertically */
+    height: calc((100% - 30px) / 2) !important; */
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+} 
 
-.sponsors-overlay, .sponsors-wrapper {
-    background-color: transparent;
-    background-image: linear-gradient(180deg, #27283AA1 0%, #27283A 100%);
-    opacity: 1;
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+
+/*================ FAQ's ================*/
+.faq-row {
+    border-bottom: none !important;
+    padding: 10px 15px !important;
+    border-radius: 12px;
+    margin-top: 20px;
+    background: #27283a
+}
+
+.icon-wrapper {
+    top: 20px !important;
+    right: 25px !important;
+    scale: 1.4;
 }

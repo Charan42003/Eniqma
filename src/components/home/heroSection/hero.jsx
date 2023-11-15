@@ -4,12 +4,14 @@ import earth from '../../../assets/globe2.png'
 function Hero() {
   return (
     <>
-    <div className="min-h-[100vh] max-h-[100vh] overflow-hidden relative hero-section">
+    <section className="min-h-[100vh] max-h-[100vh] overflow-hidden relative hero-section">
         <div className="hero-shadow object-contain min-h-[100vh] max-h-[100vh] w-full">
         </div>
         <div className="relative z-10 mt-14  flex flex-col items-center  hero-content">
-          <h1 className="text-white text-[60px] font-bold">
-            Unleash your creativity at <br />
+          <h1 className="text-white text-[60px] font-bold ">
+            <section style={{ textShadow: '0 0 10px #73C9EC'}}>
+              Unleash your creativity at <br />
+            </section>
             <span className="">
               The East Point - Eniqma
             </span>
@@ -21,13 +23,13 @@ function Hero() {
             <button className=" text-[15px] tracking-widest register-btn hero-btn">
               Register Now
             </button>
-            <button className=" text-[15px] tracking-widest register-btn hero-btn community-btn">
-              Join Community
+            <button className=" text-[15px] tracking-widest hero-btn community-btn">
+                Join Community
             </button>
           </div>
         </div>
         <img src={ earth } alt="" className='hero-earth' />
-    </div>
+    </section>
 
     </>
   )

@@ -4,7 +4,7 @@ import aboutImg from '../../../assets/about.png'
 function About() {
   return (
     <>
-    <div className="container flex mx-auto pt-11 pb-11 w-full justify-between">
+    <section className="container flex mx-auto pt-11 pb-11 w-full justify-between">
         <div className='w-[48%] flex justify-center items-center'>
         <div className=' aboutSection-image'>
             <img src={ aboutImg } width={'350px'} alt="" />
@@ -23,7 +23,7 @@ function About() {
               Join Community
             </button>
         </div>
-    </div>
+    </section>
     
     </>
   )

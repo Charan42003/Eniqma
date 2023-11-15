@@ -5,6 +5,7 @@ import About from './aboutSection/About'
 import Timeline from './timelineSection/Timeline'
 import Tracks from './tracksSection/Tracks'
 import Sponsors from './sponsorsSection/Sponsors'
+import FaqSection from './faqSection/FaqSection'
 
 function Home() {
   return (
@@ -25,7 +26,12 @@ function Home() {
       {/* Tracks Section */}
       <Tracks />
 
+      {/* Sponsors Section  */}
       <Sponsors />
+      
+      {/* FAQ's Section  */}
+      <FaqSection />
+
     </div>
     </>
   )
