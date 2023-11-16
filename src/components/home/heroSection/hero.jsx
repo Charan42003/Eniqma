@@ -1,5 +1,5 @@
 import React from 'react'
-import earth from '../../../assets/globe2.png'
+import earth from '../../../assets/globe.png'
 
 function Hero() {
   return (
@@ -19,8 +19,8 @@ function Hero() {
           <p className='text-grey text-[20px] w-[60%] text-center mt-4'>
           Where Geeks And Prodigies create Magic
           </p>
-          <div className="mt-5 flex gap-5">
-            <button className=" text-[15px] font-bold !text-black tracking-widest register-btn hero-btn">
+          <div className="mt-5 px-4 justify-center items-center flex flex-wrap gap-5">
+            <button className=" text-[15px] tracking-widest register-btn hero-btn">
               Register Now
             </button>
             <button className=" !text-white text-[15px] tracking-widest hero-btn community-btn">

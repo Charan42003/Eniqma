@@ -5,12 +5,17 @@
     .nav-element {
         flex-direction: column;
         position: relative;
-        background: #181827;
+        /* background: #181827; */
+        background: #13131f24;
         right: 2.25rem;
         width: 100vw;
         padding: 30px 0;
         margin-top: 20px;
         transition: all 1s ease-in-out;
+    }
+
+    .nav-element a {
+        border-bottom: 2px solid #13131f78;
     }
 
     .menu-btn {
@@ -31,7 +36,23 @@
         display: none;
     }
     .hero-earth {
-        top: 0 !important;
+        bottom: -120px !important;
+        scale: 1.2
+    }
+
+    .hero-content h1 {
+        text-align: center;
+        padding: 20px;
+        font-size: 45px;
+    }
+    .hero-content p {
+        width: 80%;
+    }
+
+    .faq-body {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 0px !important;
     }
 }
 
@@ -43,8 +64,9 @@
 
 
 @media only screen and (max-width: 380px) {
+
     .logo {
-        width: 40%;
+        width: 20%;
     }
     .nav-bar {
         padding: 16px 20px;
@@ -52,4 +74,5 @@
     .nav-element {
         right: 20px;
     }
+    
 }

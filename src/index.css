@@ -11,6 +11,7 @@ body {
     background: #13131f;
     filter: contrast(1.5);
     /* background: #27283A; */
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
@@ -89,13 +90,15 @@ background: #12131b;
     position: absolute;
     top: 40%;
     left: 50%;
-    /* transform: translateX(-60%); */
+    /* transform: translateX(-50%); */
     mix-blend-mode: color-dodge;
     transform-origin: center;
     /* animation: spin 10s linear infinite; */
     animation: spinit 50s ease-in-out infinite;
     filter: contrast(2.5);
     /* transform: translateX(-50%) rotate(50deg); */
+    /* scale: 1.5 */
+    scale: 0.85
 }
 
 .hero-btn {
@@ -130,10 +133,10 @@ background: #12131b;
 
 @keyframes spinit {
     0% {
-        transform: translateX(-50%) rotate(0deg);
+        transform: translateX(-60%) rotate(0deg);
     }
     100% {
-        transform: translateX(-50%) rotate(360deg);
+        transform: translateX(-60%) rotate(360deg);
     }
 }
 
@@ -175,7 +178,7 @@ background: #12131b;
 
 .tracks-section-card {
     /* border: 1px solid red; */
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.28);
     width: 100%;
     padding: 30px;
     margin: 0 auto;
@@ -275,7 +278,13 @@ background: #12131b;
     padding: 10px 15px !important;
     border-radius: 12px;
     margin-top: 20px;
-    background: #27283a
+    background: #27283a;
+}
+
+.faq-body {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px !important;
 }
 
 .icon-wrapper {

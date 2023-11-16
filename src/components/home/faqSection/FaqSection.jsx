@@ -19,20 +19,44 @@ const data = {
   title: "",
   rows: [
     {
-        title: "Is it a remote or an on-site Hackathon?",
-        content: <p className="pl-3 text-primary">This year, we are only hosting an on-campus event, meaning it will be conducted in person rather than online.</p>,
+      title: "Can I join East Point Enigma remotely, or is physical attendance mandatory?",
+      content: <p className="pl-3 text-primary">East Point Enigma accommodates both on-site and remote participation. Details on how to engage virtually will be provided closer to the event.</p>,
     },
     {
-        title: "What is the maximum and minimum number of particip...",
-        content: <p className="pl-3 text-primary"> A group can have a minimum of 3 participants and a maximum of 5 participants. It is required to have at least one female participant in each group.</p>,
+      title: "Is there an age limit for participants?",
+      content: <p className="pl-3 text-primary">East Point Enigma welcomes participants of all age groups. However, specific age-related eligibility criteria, if any, will be outlined in the participant guidelines.</p>,
     },
     {
-        title: "What do I pay to register for the event?",
-        content: <p className="pl-3 text-primary">0, Nill, Nought, Cero, Nada. The East Point - Eniqma has no registration fee for all participants.</p>,
+      title: "What programming languages are accepted in East Point Enigma?",
+      content: <p className="pl-3 text-primary">East Point Enigma is language-agnostic, allowing participants to code in their language of choice. The focus is on creativity and problem-solving.</p>,
     },
     {
-      title: "Will there be networking opportunities with industry professionals or sponsors?",
-      content: <p className="pl-3 text-primary"> East Point Enigma aims to provide networking opportunities. Details about industry interactions or sponsor engagements will be shared closer to the event. </p>,
+      title: "Will there be pre-hackathon workshops or training sessions?",
+      content: <p className="pl-3 text-primary">Details about any pre-event workshops or training sessions will be communicated to participants in advance to enhance their skills and preparedness.</p>,
+    },
+    {
+      title: "How will East Point Enigma handle code plagiarism and intellectual property concerns?",
+      content: <p className="pl-3 text-primary">East Point Enigma maintains strict policies against plagiarism. Guidelines on originality, code ownership, and intellectual property protection will be provided.</p>,
+    },
+    {
+      title: "Can I participate if I'm not a student or professional in the technology field?",
+      content: <p className="pl-3 text-primary">East Point Enigma is open to enthusiasts from all backgrounds. Whether you're a student, professional, or simply passionate about technology, you're welcome to join.</p>,
+    },
+    {
+      title: "Are there opportunities for collaboration with other participants during the hackathon?",
+      content: <p className="pl-3 text-primary">East Point Enigma encourages collaboration. Participants will have the chance to form teams and collaborate on projects during the event.</p>,
+    },
+    {
+      title: "How can I stay informed about important announcements and updates?",
+      content: <p className="pl-3 text-primary">Stay connected through our official communication channels, including email updates, social media platforms, and the East Point Enigma website for the latest information.</p>,
+    },
+    {
+      title: "Will there be post-event resources or support for project development beyond the hackathon?",
+      content: <p className="pl-3 text-primary">East Point Enigma aims to provide resources and support beyond the event. Details on post-hackathon opportunities will be shared during the closing ceremony.</p>,
+    },
+    {
+      title: "How can I provide feedback or suggestions for improving future editions of East Point Enigma?",
+      content: <p className="pl-3 text-primary">We value participant feedback. Share your insights through our feedback channels, accessible after the event, to contribute to the continuous improvement of East Point Enigma.</p>,
     },
   ],
 };

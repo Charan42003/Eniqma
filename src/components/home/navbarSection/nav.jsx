@@ -21,7 +21,7 @@ function Nav() {
             <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Home</a>
             <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>About Us</a>
             <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Prizes</a>
-            <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Sponsors</a>
+            <a href="#tracks" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>Tracks</a>
             <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary" onClick={ menuClicked }>FAQ</a>
             <a href="#" className="text-white font-[500] tracking-widest text-[1rem] hover:text-primary register-btn" onClick={ menuClicked }>Register Now</a>
         </div>
