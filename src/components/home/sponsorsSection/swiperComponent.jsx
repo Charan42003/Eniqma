@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/grid';
@@ -6,11 +6,19 @@ import { Grid, Autoplay } from 'swiper/modules';
 import logo from '../../../assets/spons.png'
 
 function SwiperComponent() {
+  
+  const [slidesPerView, setSlidesPerView] = useState(3);
+  useEffect(()=>{
+    if(window.innerWidth < 450) {
+      setSlidesPerView(2)
+    }
+  }, []);
+
   return (
     <>
     <div className="w-full h-auto">
         <Swiper
-          slidesPerView={3}
+          slidesPerView={slidesPerView}
           grid={{
             rows: 1,
           }}

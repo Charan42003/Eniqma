@@ -49,6 +49,27 @@
         width: 80%;
     }
 
+    .tracks-img {
+        display: block;
+    }
+
+    .tracks-section-card {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .tracks-section-card > div {
+        margin-top: 20px;
+    }
+    .tracks-section-card h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .tracks-section-card p {
+        width: 100%;
+        margin-top: 20px;
+        text-align: right;
+    }
+
     .faq-body {
         display: grid !important;
         grid-template-columns: 1fr !important;

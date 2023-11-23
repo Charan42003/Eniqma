@@ -37,7 +37,7 @@ function Tracks() {
       <section className="tracks-section py-20" id='tracks'>
         <div className="container mx-auto flex flex-col justify-center items-center tracks-section-head">
           <h2 className="text-[18px] font-bold">Tracks</h2>
-          <h3 className='text-[40px] font-bold'>Lorem ipsum dolor sit amet</h3>
+          <h3 className='text-[40px] font-bold px-4 lg:px-0 text-center'>Lorem ipsum dolor sit amet</h3>
 
         </div>
 

@@ -11,11 +11,11 @@ function About() {
             <img src={ aboutImg } width={'350px'} className="rounded-[20px]" />
         </div>
         </div>
-        <div className="flex flex-col justify-center items-center px-4 lg:px-0 lg:items-start mt-10  lg:w-[48%] about-section">
+        <div className="flex flex-col justify-center items-center lg:items-start mt-10  lg:w-[48%] about-section">
             <h2 className="text-[18px] font-bold">
               About Eniqma
             </h2>
-            <h3 className='text-[40px] font-bold text-center lg:text-left'>Where Geeks And Prodigies create Magic</h3>
+            <h3 className='text-[40px] font-bold text-center lg:text-left px-4 lg:px-0'>Where Geeks And Prodigies create Magic</h3>
             <p className='text-grey text-[16px] text-center lg:text-left mt-4 w-4/5'>
               The East Point - Eniqma is a community of students who are passionate about technology and are willing to learn and grow together. We are a group of students who are passionate about technology and are willing to learn and grow together. We are a group of students who are passionate about technology and are willing to learn and grow together.
             </p>
