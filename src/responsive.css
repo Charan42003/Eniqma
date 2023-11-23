@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1205px) {
+    .footer-wrap {
+        /* flex-direction: column-reverse; */
+        align-items: center;
+    }
+}
 @media only screen and (max-width: 780px) {
     .nav-bar {
         flex-direction: column;
