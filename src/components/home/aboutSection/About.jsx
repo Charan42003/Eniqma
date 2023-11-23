@@ -11,7 +11,7 @@ function About() {
             <img src={ aboutImg } width={'350px'} className="rounded-[20px]" />
         </div>
         </div>
-        <div className="flex flex-col justify-center items-center lg:items-start mt-10  lg:w-[48%] about-section">
+        <div className="flex flex-col justify-center items-center px-4 lg:px-0 lg:items-start mt-10  lg:w-[48%] about-section">
             <h2 className="text-[18px] font-bold">
               About Eniqma
             </h2>
