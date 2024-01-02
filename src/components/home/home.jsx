@@ -8,6 +8,7 @@ import Sponsors from './sponsorsSection/Sponsors'
 import FaqSection from './faqSection/FaqSection'
 import Footer from './footer/footer'
 
+
 function Home() {
   return (
     <>
