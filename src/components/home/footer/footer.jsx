@@ -11,7 +11,7 @@ function Footer() {
           <img src={ logo } alt="" className='w-[250px]' />
 
           <div className="">
-            <h2 className="mb-10 mt-5 text-[25px] font-bold bg-gradient-to-t from-primary to-blue text-[transparent] bg-clip-text">Where Geeks And Prodigies create Magic</h2>
+            <h2 className="mb-10 mt-5 text-[25px] font-bold bg-gradient-to-t from-primary to-blue text-[transparent] bg-clip-text" >Where Geeks And Prodigies create Magic</h2>
           </div>
 
           <div className="mt-5 mb-10 flex flex-wrap justify-left items-center gap-5">

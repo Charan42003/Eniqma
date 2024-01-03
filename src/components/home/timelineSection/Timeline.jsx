@@ -7,8 +7,10 @@ function Timeline() {
     <section className='min-h-[100vh] flex justify-center items-center py-10'>
       <div>
         <div className='timeline-section'>
+          <div className="about-section">
             <h2 className='text-[18px] font-bold text-center'>Timeline</h2>
-            <h3 className='text-[40px] font-bold text-center'>RoadMap of the Eniqma Timeline</h3>
+          </div>
+            <h3 className='text-[40px] font-bold text-center' style={{ textShadow: '0 0 10px #73C9EC'}}>RoadMap of the Eniqma Timeline</h3>
         </div>
         <div className="timeline-img">
             <img src={timeline} alt="" className='w-full h-auto'/>
